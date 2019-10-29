@@ -1,0 +1,125 @@
+<style>
+    header {
+        position: relative;
+        padding-top: 60px;
+        background: -webkit-gradient(linear, left top, right top, from(#4dc076), to(#b3e895));
+        background: linear-gradient(90deg, #4dc076, #b3e895);
+        min-height: 400px;
+    }
+
+    .StripeBackground {
+        top: calc(50% + 175px);
+        position: absolute;
+        left: 0;
+        right: 0;
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(-7deg);
+        pointer-events: none;
+    }
+
+    .StripeBackground .s0 {
+        height: 5000px;
+        bottom: 10px;
+        background: -webkit-gradient(linear, left top, right top, from(#d7f8b7), to(#98e3b5));
+        background: linear-gradient(90deg, #d7f8b7, #98e3b5);
+        border: 1px solid blue;
+    }
+
+    .StripeBackground .stripe {
+        height: 155px;
+        position: absolute;
+        top: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .StripeBackground .s4 {
+        bottom: 0;
+        background-color: white;
+        border: 1px solid green;
+    }
+
+    .globalFooter.withCards:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 600px;
+        height: 2000px;
+        background: #f6f9fc;
+        -webkit-transform: skew(0,-7deg);
+        transform: skew(0,-7deg);
+    }
+
+    .globalFooter.withCards {
+        background: transparent;
+        overflow: hidden;
+        padding-top: 500px;
+        margin-top: -480px;
+        pointer-events: none;
+        position: relative;
+    }
+
+    .globalFooter.withCards > * {
+        position: relative;
+    }
+</style>
+
+<div class="globalContent">
+
+    <header class="Header">
+        <h1>Something goes here...</h1>
+        <div class="StripeBackground ">
+            <div class="stripe s0"></div>
+            <div class="stripe s2 pattern"></div>
+        </div>
+
+        <div class="StripeBackground accelerated ">
+            <div class="stripe s1"></div>
+            <div class="stripe s3"></div>
+            <div class="stripe s4"></div>
+        </div>
+    </header>
+
+    <main>
+        <p>Fusce molestie blandit elit sed pulvinar. Vivamus placerat lectus in arcu hendrerit, in vehicula lectus pretium. Suspendisse potenti. Proin eu mauris sed justo ornare varius. Sed lacinia lacus metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec rutrum aliquet nisl ac venenatis. Nunc at velit diam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mi augue, maximus sit amet tellus nec, mollis eleifend turpis. Suspendisse id ullamcorper diam. Ut nulla ipsum, feugiat quis ipsum ut, venenatis feugiat felis. Pellentesque vitae libero pretium metus mollis lacinia. Morbi eu quam nec arcu porta sollicitudin. Maecenas vel maximus ligula. Nullam vel tincidunt nunc. Aenean vulputate in ipsum mattis semper. Suspendisse vel ligula ante. Pellentesque molestie mollis arcu eu commodo. Nullam molestie tristique lectus non volutpat. Curabitur posuere nulla et ante porttitor varius. Nullam sed semper est, sagittis suscipit elit.</p>
+    </main>
+
+    <footer class="globalFooter withCards">
+        <section class="globalFooterCards">
+            <p>Etiam eu nibh accumsan, consectetur orci at, tempor eros. In non magna sit amet elit posuere blandit maximus sit amet justo. Phasellus tempor magna nec tellus accumsan vestibulum. Ut posuere eget mauris at suscipit. Duis non consequat orci. Sed malesuada, elit sit amet tristique facilisis, quam nulla ullamcorper ipsum, eu interdum nisi urna vitae nibh. Morbi sit amet luctus odio. Etiam dui nunc, pulvinar in egestas non, pretium eget purus. Morbi quam massa, tempus a ipsum vitae, auctor tristique tortor. Morbi in gravida urna. Fusce interdum pharetra elit, eu feugiat orci. Mauris a nunc nulla.</p>
+            <p>Praesent eu metus lorem. Phasellus vitae arcu ac metus tincidunt fringilla. Mauris molestie sem lectus, accumsan vestibulum risus vulputate nec. Sed hendrerit viverra pretium. Nulla interdum luctus diam nec rutrum. Fusce vitae justo at ipsum volutpat suscipit. Sed non ultrices purus, imperdiet pretium lacus.</p>
+            <p>Pellentesque eget semper risus, nec vehicula nulla. Vivamus nibh ex, efficitur at pharetra id, tempus ut ex. Curabitur vitae neque purus. Cras tempus lectus at massa consectetur interdum. Mauris est felis, consectetur at libero eget, consequat porttitor orci. Maecenas elementum dolor a justo scelerisque, consequat aliquet ex mattis. Ut id purus felis. Proin aliquet, tortor nec mattis auctor, risus magna fermentum nunc, consequat tristique turpis elit vel ante. Sed a magna id urna cursus venenatis. Nam vel elementum eros. Morbi in purus sed ante tincidunt maximus et nec ligula.</p>
+            <p>Etiam dignissim gravida justo a maximus. Nunc sit amet tempor erat. Nunc scelerisque rutrum velit, quis rutrum lacus consequat id. Ut ac rutrum metus. Quisque luctus blandit justo, ut aliquam tellus. Praesent et vehicula elit. Quisque urna orci, sagittis vel ipsum quis, finibus mollis magna. Vestibulum congue auctor lobortis. Nunc finibus ipsum eget justo dictum viverra. Proin ultricies orci in lacus tincidunt, at malesuada arcu accumsan. Fusce vestibulum vestibulum eros at venenatis. Sed porttitor sodales ante a interdum. Curabitur ipsum urna, posuere at massa ut, maximus euismod nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus posuere metus eget tempor condimentum.</p>
+                <p>Nunc accumsan molestie est, dignissim posuere neque tristique a. Nam nec lacus finibus, ultrices quam quis, sagittis est. Aenean sit amet eros et dui pretium ultricies. Integer imperdiet odio at fringilla mollis. Proin dignissim volutpat egestas. Ut malesuada tincidunt neque, vel hendrerit metus. In id pellentesque lacus. Phasellus rutrum, libero vel varius semper, leo nisi bibendum nunc, vel molestie odio ante at nibh. Proin mattis eros metus, ut mollis leo viverra id. Etiam dictum consectetur consectetur. Praesent nec augue convallis, ultrices ligula sit amet, aliquet purus. Nullam sit amet hendrerit diam, at viverra massa.</p>
+        </section>
+
+
+        <article class="globalFooterCTA">
+            <div class="container-lg">
+
+                <div class="content">
+                    <h1 class="title">
+                        <span class="subtitle">Ready to get started?</span>
+                        Get in touch or create an account.
+                    </h1>
+                </div>
+
+                <div class="common-ButtonGroup buttons ">
+
+                    <a class="common-Button common-Button--default" href="https://dashboard.stripe.com/register" data-analytics-action="sign_up" data-analytics-source="footer_cta" data-convert-cta="dashboard_register">
+                        Create Stripe account
+                    </a>
+
+                    <a href="/contact/sales" class="common-Button " data-analytics-action="contact_sales" data-analytics-source="footer_cta">
+                        Contact Sales
+
+                    </a>
+                </div>
+
+            </div>
+        </article>
+    </footer>
+
+</div>
